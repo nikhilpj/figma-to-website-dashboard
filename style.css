@@ -1,0 +1,267 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Inter';
+    color: white;
+    display: flex;
+    
+}
+.dashboard-sidebar{
+    background-color: #0F1738;
+    width: 293px;
+    height: 1019px;
+    
+}
+
+.logo{
+    display: flex;
+    margin-bottom: 28px;
+    align-items: center;
+}
+
+.logo-items img{
+    width: 26.67px;
+    height: 26.67px;
+    /* margin-top: 25.11px; */
+}
+
+.logo-items p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+
+/* .logo-items {
+    
+    border: 1px solid red;
+    
+} */
+.icon{
+    /* margin-top: 25px; */
+    margin-left: 102.5px;
+}
+.company-details{
+    display: flex;
+    width: 229px;
+    height: 56px;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 21px;
+}
+
+.company-details img{
+    width: 32px;
+    height: 32px;
+}
+
+.dashboard-navs{
+    display: flex;
+    align-items: center;
+    width: 229px;
+    height: 44px;
+    margin-left: 19px;
+    border: 1px solid red;
+    margin-top: 10px;
+
+}
+
+.dashboard-navs p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 4px;
+    padding-right: 4px;
+}
+
+#compliance{
+    background-color: #E26930;
+    border-radius: 6px;
+}
+.dashboard-end{
+    margin-top: 338px;
+}
+.dashboard-end-item{
+    display: flex;
+    width: 226.09px;
+    height: 24.08px;
+    align-items: center;
+    border: 1px solid red;
+    margin-bottom: 30px;
+    font-size: 14px;
+    margin-left: 29px;
+}
+
+.dashboard-end-item-div{
+    
+    border: 1px solid red; 
+    display: flex;
+    width: 226.09px;
+    height: 42;
+    margin-left: 29px;
+    
+}
+.dashboard-end-item-div p{
+    margin-left: 8px;
+    margin-right: 15px;
+}
+
+#p-1-end{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19.5px;
+}
+
+#p-2-end{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.main-container{
+    width: 423px;
+    height: 1019px;
+    background-color: #F8F9FF;
+    border-right: 1px solid #C9CEE9
+}
+.title{
+    width: 313px;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.title{
+    color:black;
+    border: 1px solid red;
+    align-items: baseline;
+
+}
+.main-title{
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 28.6px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 313px;
+    height: 30px;
+}
+.main-title img{
+width: 30px;
+height: 30px;
+margin-left: 20px;
+}
+
+
+#welcome{
+    
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.8px;
+    color: #6A6A6D;
+    border: 1px solid red;
+    width: 101px;
+    height: 24px;
+}
+
+.document-updates{
+    width: 343px;
+    height: 182px;
+    margin-top: 51px;
+    background-image: linear-gradient(to right,#7B92F8,#FF9393);
+    color: black;
+    border: 1px solid red;
+    margin-left: 40px;
+    border-radius: 16px;
+    position: relative;
+    
+}
+
+.document-update-items{
+    display: flex;
+}
+
+#document-img{
+    margin-left: 15px;
+}
+
+#span-1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color:black
+}
+
+#span-2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+}
+#span-3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+
+.document-update-items-2-span{
+    width: 219px;
+    height: 36px;
+    margin-left: 23px;
+    margin-bottom: 24px;
+    border: 1px solid red;
+}
+
+.document-updates-span{
+    margin-left: 16px;
+    /* border: 1px solid red; */
+    margin-top: 26px;
+    width: 162px;
+    height: 46px;
+
+}
+
+#auto_awesome{
+    width: 31px;
+    height: 31px;
+    margin-top: 45px;
+}
+
+.line-break{
+    margin-left: 25px;
+}
+
+/* .document-update-items-2{
+    width: 219px;
+    height: 36px;
+    display: flex;
+    margin-top: 24px;
+    border: 1px solid red;
+} */
+
+.document-update-items-2 img{
+    width: 21px;
+    height: 21px;
+    border: 1px solid red;
+    margin-left: 57px;
+    
+}
+.document-update-items-2{
+    display: flex;
+    
+}
+
+.graph-report{
+    width: 343px;
+    height: 173px;
+    background-image: linear-gradient(#263A8B,#1A213F);
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+
+
